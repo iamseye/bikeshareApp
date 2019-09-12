@@ -1,0 +1,13 @@
+{
+  "name": "bikeshareapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd bikeshare_map && npm start",
+    "server": "cd bikeshare_api && npm start",
+    "start": "concurrently -k \"npm run server\" \"npm run client\""
+  },
+  "author": "Jessie",
+  "license": "ISC"
+}
